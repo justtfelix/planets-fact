@@ -14,6 +14,10 @@ export interface Theme {
     lightOrange: string;
     lightGreen: string;
   };
+  fonts: {
+    primary: string;
+    secondary: string;
+  };
 }
 
 export const defaultTheme: Theme = {
@@ -31,5 +35,9 @@ export const defaultTheme: Theme = {
     lightBlue: "#419EBB",
     lightOrange: "#CD5120",
     lightGreen: "#1ec2a4",
+  },
+  fonts: {
+    primary: "League Spartan",
+    secondary: "Antonio",
   }
 }
